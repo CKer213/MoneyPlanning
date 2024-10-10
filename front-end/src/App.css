@@ -1,0 +1,89 @@
+.container {
+  padding: 16px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.dashboard {
+  width: 1200px;
+  height: 80vh;
+  margin: 16px;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
+}
+.dashboard-table {
+  max-height: 80%;
+}
+.dashboard-table-title {
+  margin-top: 16px;
+}
+.dashboard-table-event {
+  width: 50%;
+}
+.dashboard-table-category {
+  width: 30%;
+}
+.dashboard-table-income-outcome {
+  width: 10%;
+}
+
+table{
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+}
+tr {
+  margin-bottom: 16px;
+  display:flex;
+}
+
+.balance {
+  margin-right: 24px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.balance-text{
+  margin-right: 16px;
+}
+.balance-amount {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.feature {
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.feature-content {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+}
+.feature-content-form {
+  display: flex;
+  flex-direction: column;
+}
+.feature-content-pie-title {
+  margin: -36px auto 16px auto;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  font-weight: 800;
+}
+.feature-content-buttonbar {
+  display: flex;
+  justify-content: space-between;
+}
+.feature-content-warning {
+  color: red;
+  font-weight: 500;
+}
